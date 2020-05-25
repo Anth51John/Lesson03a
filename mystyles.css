@@ -1,0 +1,149 @@
+<!-- 
+		Blackboard User Name: Anthony Johnson
+		Date: 5/22/2020
+		File: mystyles.css
+		Purpose: CSS document for formatting online resume project.  
+-->
+
+/* ------- Global Settings ------- */
+	
+	html{
+		width: 100%;
+		height: 100%;
+		border-collapse: collapse;
+		border-spacing: 1px;
+	}
+	
+	body{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		
+		
+		width: 100%;
+		
+	}
+	
+	header{
+			text-align: center;
+			background: #939CA0;
+			margin: -40px 0 -21px 0;
+		}
+	
+	h1{
+		font-family: 'Cinzel Decorative', cursive;font-size: 50px;
+		font-weight: lighter;
+	}
+	
+	h2{
+		font-family: 'Cinzel Decorative', cursive;font-size: 25px;
+		text-align: center;
+	}
+	
+	p{
+		margin: 10px;
+	}
+	
+	.about-paragraph{
+		padding: 20px; 
+	}
+/* ------- Feature Projects ------- */
+
+	section{
+		
+	}
+	
+	.projects{
+		background: #9A989F;
+		margin: 0 0 -21px 0;
+	}
+	
+	h2{
+		
+	}
+	
+	h3{
+		margin: 10px;
+	}
+	
+	img{
+		border: 1px solid #000;
+		border-radius: 10px;
+		margin-left: 50px;
+	}
+
+	a{
+		margin: 10px;
+	}
+	
+	p{
+		margin: 10px;
+	}
+	
+/* ------- Work Experience ------- */
+
+	section{
+		
+	}
+		
+	.work{
+		background: #A0949D;
+		margin: 0 0 -21px 0;
+	}
+	
+	h2{
+		
+	}
+	
+	h3{
+		
+	}
+	
+	p{
+		
+	}
+	
+
+/* ------- Education ------- */
+	
+	section{
+		
+	}
+	
+	.education{
+		background: #A6919C;
+		margin: 0 0 -21px 0;
+	}
+	
+	h2{
+		
+	}
+	
+	h3{
+		
+	}
+	
+	p{
+		
+	}
+	
+	li{
+		
+	}
+	
+/* ------- Contact Information ------- */
+
+	footer{
+		background: #AC8D9A;
+	}
+	
+	h2{
+		
+	}
+	
+	ul{
+		
+	}
+
+
+
