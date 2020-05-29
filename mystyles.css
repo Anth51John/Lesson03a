@@ -6,47 +6,62 @@
 -->
 
 /* ------- Global Settings ------- */
+
+/* Reset the Internet browser settings */
+	body, section, article, h1, h2 { 
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
 	
 	html{
-		width: 100%;
+		max-width: 100%;
 		height: 100%;
 		border-collapse: collapse;
 		border-spacing: 1px;
 	}
 	
 	body{
-		margin: 0;
-		padding: 0;
 		box-sizing: border-box;
-		
-		
 		width: 100%;
-		
+		margin: 0;
+
 	}
 	
 	header{
 			text-align: center;
-			background: #939CA0;
-			margin: -40px 0 -21px 0;
+			background: #FC6464;
+			margin: -50px 0 -15px 0;
 		}
 	
 	h1{
-		font-family: 'Cinzel Decorative', cursive;font-size: 50px;
+		font-family: 'Tangerine', cursive;font-size: 75px;
 		font-weight: lighter;
+		padding-top: 10px;
 	}
 	
 	h2{
-		font-family: 'Cinzel Decorative', cursive;font-size: 25px;
+		font-family: 'Tangerine', cursive;font-size: 40px;
 		text-align: center;
+		margin-top: -20px;
 	}
 	
 	p{
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+		line-height: 1.5;
 		margin: 10px;
 	}
 	
 	.about-paragraph{
-		padding: 20px; 
+		padding-bottom: 15px;
 	}
+	
+	.myContent{
+		width: 800px;
+		margin: 0 auto;
+	}
+	
 /* ------- Feature Projects ------- */
 
 	section{
@@ -54,28 +69,37 @@
 	}
 	
 	.projects{
-		background: #9A989F;
-		margin: 0 0 -21px 0;
+		background: #FC7C5E;
+		margin: -20px 0 -21px 0;
+		padding-top: 20px;
 	}
 	
-	h2{
-		
+	.myFeature{
+		padding-top: 15px;
 	}
 	
 	h3{
+		font-family: 'Raleway', sans-serif;
 		margin: 10px;
 	}
 	
 	img{
 		border: 1px solid #000;
 		border-radius: 10px;
-		margin-left: 50px;
+		margin-left: 200px;
+		max-width: 100%;
 	}
 
 	a{
 		margin: 10px;
+		padding: 5px;
+		text-decoration: none;
+		color: black;
 	}
 	
+	a:hover{
+		color: yellow;
+	}
 	p{
 		margin: 10px;
 	}
@@ -87,22 +111,16 @@
 	}
 		
 	.work{
-		background: #A0949D;
+		background: #FC9458;
 		margin: 0 0 -21px 0;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+		line-height: 1.5;
 	}
 	
-	h2{
-		
+	.formatWork{
+		margin: 21px;
 	}
-	
-	h3{
-		
-	}
-	
-	p{
-		
-	}
-	
 
 /* ------- Education ------- */
 	
@@ -111,39 +129,28 @@
 	}
 	
 	.education{
-		background: #A6919C;
+		background: #FCAC51;
 		margin: 0 0 -21px 0;
-	}
-	
-	h2{
-		
-	}
-	
-	h3{
-		
-	}
-	
-	p{
-		
-	}
-	
-	li{
-		
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+		line-height: 1.5;
 	}
 	
 /* ------- Contact Information ------- */
 
 	footer{
-		background: #AC8D9A;
-	}
-	
-	h2{
-		
+		background: #FCC44B;
+		margin: -5px 0 -60px 0;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+		line-height: 1.5;
 	}
 	
 	ul{
-		
+		margin: 0 0 -26px 0;
+		padding: 25px;
 	}
+
 
 
 
